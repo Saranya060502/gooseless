@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Gooseless",
+    "slug": "gooseless",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "gooseless",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "backgroundColor": "#0c1f21"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.gooseless.app"
+    },
+    "android": {
+      "package": "com.gooseless.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0c1f21"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "router": { "origin": false },
+      "eas": { "projectId": "your-project-id" }
+    }
+  }
+}
